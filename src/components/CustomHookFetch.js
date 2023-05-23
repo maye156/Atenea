@@ -1,4 +1,8 @@
 
-export function CustomHookFetch(){
+export function CustomHookFetch(url){
+    fetch(url)
+    .then()
+    .catch()
+     
     return "hola";
 }
