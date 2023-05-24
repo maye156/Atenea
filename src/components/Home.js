@@ -14,17 +14,7 @@ export const Home =()=>{//Privado
     
 
   function getMeals(){
-    
-    /*fetch (`${uri}apiKey=${k}&timeFrame=day&targetCalories=${cal}`)
-    .then((response)=> response.json())
-    .then((data)=>{
-        setMealData(data);
-        console.log(data);
-    })
-    .catch(()=>{
-        console.log("error")
-    })*/
-    setMealData(data);
+       setMealData(data);
   }
     function handleChange(e){
         setCal(e.target.value);
