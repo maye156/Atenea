@@ -20,9 +20,9 @@ export const Home =()=>{//Privado
         setCal(e.target.value);
     }
     return(
-        <div class="p-5 text-center bg-light" id='divHeader'>
+        <div className="p-5 text-center bg-light" id='divHeader'>
         <section>
-        <h1 class="mb-3"> PLAN DE ALIMENTACIÓN DIARIA </h1>
+        <h1 className="mb-3"> PLAN DE ALIMENTACIÓN DIARIA </h1>
         
         <input type='number'
         
@@ -30,7 +30,7 @@ export const Home =()=>{//Privado
                onChange={handleChange}/>
                
         <button  type="submit" 
-                class="btn btn-primary mb-2"
+                className="btn btn-primary mb-2"
                 onClick={getMeals}>
                 Mostrar </button>
         </section>
